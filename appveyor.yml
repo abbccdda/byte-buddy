@@ -1,6 +1,3 @@
-environment:
-  MAVEN_OPTS : -Xmx1024g -XX:MaxPermSize=256m
-
 install:
   - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 
